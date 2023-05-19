@@ -1,19 +1,45 @@
 main{
-    border: 1px solid red;
-    width: 1100px;
-    height: 1000px;
+    width: 1200px;
+    height: 1200px;
 }
 header{
-
+    border: 2px solid rgba(54, 53, 53, 0.945);
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px;
+    background-image: url(imagen1.jpg);
+    width: 1200px;
+    height: 250px;
 }
 nav{
-
+    border: 2px solid rgba(54, 53, 53, 0.945);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(54, 53, 53, 0.945);
+    color: white;
+    width: 1200px;
+    height: 90px;
+    margin-bottom: 30px;
 }
 section{
-
+    border: 1px solid saddlebrown;
+    width: 1200px;
+    height: 600px;
+}
+section h1{
+border: 1px solid red;
+width: 600px;
+height: 250px;
+}
+section h2{
+    width: 550px;
+    height: 550px;
+    border: 1px solid blue;
 }
 footer{
-
+    border: 1px solid beige;
+    width: 1200px;
+    height: 200px;
+    margin-top: 30px;
 }
 html{
     

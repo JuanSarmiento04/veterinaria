@@ -1,0 +1,19 @@
+
+#flex-body{
+    display: flex;
+    justify-content: center;
+}
+#flex-main{
+    display: flex;
+    flex-direction: column;
+}
+.flex-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex-nav{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
