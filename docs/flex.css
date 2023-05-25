@@ -17,3 +17,9 @@
     font-size: 25px;
     justify-content: space-evenly;
 }
+.flex-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

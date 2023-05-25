@@ -21,25 +21,44 @@ nav{
     margin-bottom: 30px;
 }
 section{
-    border: 1px solid saddlebrown;
     width: 1200px;
     height: 600px;
 }
 section h1{
-border: 1px solid red;
-width: 600px;
-height: 250px;
+    background-color: rgba(250, 235, 215, 0.973);
+    border: 1px solid rgba(250, 235, 215, 0.973);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 600px;
+    height: 250px;
 }
 section h2{
+    background-color: rgba(250, 235, 215, 0.973);
+    border: 1px solid rgba(250, 235, 215, 0.973);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 600px;
+    height: 250px;
+}
+section h3{
+    border-radius: 25px;
+    background-color: rgb(0, 119, 128);
     width: 550px;
     height: 550px;
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 119, 128);
 }
 footer{
-    border: 1px solid beige;
+    border: 1px solid rgba(54, 53, 53, 0.945);
+    background-color: rgba(54, 53, 53, 0.945);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     width: 1200px;
-    height: 200px;
+    height: 150px;
     margin-top: 30px;
+}
+footer b{
+    color: white;
+    font-size: 20px;
 }
 html{
     
